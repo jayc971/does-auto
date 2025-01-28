@@ -44,7 +44,7 @@ function DesktopSidebar() {
     return (
         <div className="hidden relative md:block min-w-[280px] max-w-[280px] h-screen overflow-hidden w-flow bg-primary/5 dark:bg-secondary/30 dark:text-foreground text-muted-foreground border-r-2 border-separate">
             {/* Logo Section */}
-            <div className="flex items-center justify-center gap-2 border-b-[1px] border-separate p-4">
+            <div className="flex items-center gap-2 border-b-[1px] border-separate p-4">
                 <Logo />
             </div>
 
@@ -96,7 +96,7 @@ function MobileSidebar() {
                         </Button>
                     </SheetTrigger>
                     <SheetContent className="w-[280px] sm:w-[300px] space-y-4" side={"left"}>
-                        <div className="flex items-center justify-center gap-2 border-b-[1px] border-separate p-4">
+                        <div className="flex items-center gap-2 border-b-[1px] border-separate p-4">
                             <Logo />
                         </div>
                         <div className='flex flex-col gap-1'>
